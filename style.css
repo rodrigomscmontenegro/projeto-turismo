@@ -34,6 +34,8 @@ header {
 h1 {
   font-size: 36px;
   line-height: 44px;
+  font-weight: bold;
+  color: #1b1b1b;
 }
 
 #description {
@@ -51,6 +53,7 @@ h1 {
 #description p {
   font-size: 16px;
   line-height: 24px;
+  color: #333333;
 }
 
 .divider {
@@ -67,17 +70,14 @@ h1 {
 #destaques h2 {
   font-size: 32px;
   margin-bottom: 8px;
+  font-weight: bold;
+  color: #1b1b1b;
 }
 
 #destaques > p {
   margin-bottom: 40px;
   line-height: 24px;
-}
-
-ol {
-  list-style: none;
-  counter-reset: item;
-  padding-left: 0;
+  color: #333333;
 }
 
 ol {
@@ -104,14 +104,24 @@ ol > li h3::before {
   font-weight: bold;
 }
 
+ol > li h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b1b1b;
+  margin-bottom: 8px;
+}
+
 ol > li p {
   margin-bottom: 16px;
   line-height: 24px;
+  color: #333333;
 }
 
 ol > li h4 {
   margin-bottom: 8px;
   font-size: 16px;
+  font-style: italic;
+  color: #1b1b1b;
 }
 
 ul {
@@ -121,5 +131,20 @@ ul {
 
 ul li {
   margin-bottom: 4px;
-  
+}
+
+.accent-blue {
+  color: #0c51a7;
+}
+
+.accent-orange { 
+  color: #e95e10; 
+}
+
+.accent-pink { 
+  color: #e5245e; 
+}
+
+.accent-purple { 
+  color: #591b98; 
 }
