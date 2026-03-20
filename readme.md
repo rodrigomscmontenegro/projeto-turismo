@@ -30,9 +30,10 @@ A página apresenta Gramado como destino turístico, destacando:
 ```bash
 git clone https://github.com/rodrigomscmontenegro/projeto-turismo
 cd projeto-turismo
+```
 
 Abra o arquivo index.html no navegador.
 
-🎯 Objetivo
+## 🎯 Objetivo
 
 Praticar a construção de páginas web estáticas, interpretação de layouts e organização de conteúdo para criação de landing pages atrativas.
