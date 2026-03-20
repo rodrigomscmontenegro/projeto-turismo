@@ -148,3 +148,10 @@ ul li {
 .accent-purple { 
   color: #591b98; 
 }
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 14px;
+  color: #696969;
+}
